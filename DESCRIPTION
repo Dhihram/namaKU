@@ -18,3 +18,4 @@ Suggests:
     rmarkdown,
     tidyverse,
 VignetteBuilder: knitr
+Year: 2024
