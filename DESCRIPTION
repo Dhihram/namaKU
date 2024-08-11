@@ -1,0 +1,20 @@
+Package: namaKU
+Type: Package
+Title: Making acronym and sequence number from long name
+Version: 0.1.0
+Author: Dhihram Tenrisau
+Maintainer: Dhihram Tenrisau <dhihram.tenrisau@gmail.com>
+Description: The purpose of this package is to generate the acronym and sequence number for long name
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    rlang,
+    dplyr,
+Suggests: 
+    knitr,
+    rmarkdown,
+    tidyverse,
+VignetteBuilder: knitr
