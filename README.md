@@ -57,3 +57,4 @@ The parameter of this package consist of :
 d <- namaKU(df = d, location = AreaName, vocal = FALSE, number = 3, seq = TRUE)
 knitr::kable(d)
 ```
+For the manual, you can see [here](https://dhihram.github.io/namaKU/)
