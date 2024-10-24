@@ -65,13 +65,12 @@ namaKU <- function(df, location, vocal = TRUE, number = 3, seq = TRUE) {
   } else {
     df_acronyms <- df_acronyms %>%
       ungroup() %>%
-      select(!!location, AcronymBase) %>%
+      select(AcronymBase) %>%
       rename(acronym = AcronymBase)
   }
 
   # Merge the acronyms back with the original dataframe
-  df <- df %>%
-    left_join(df_acronyms, by = rlang::as_name(location))
+  df <- cbind(df, df_acronyms)
 
   return(df)
 }
